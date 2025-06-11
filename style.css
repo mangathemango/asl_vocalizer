@@ -21,9 +21,9 @@
 /* Container holds video and canvas stacked */
 .video_container {
     position: relative;
-    width: 1280px;
+    width: 840px;
     /* smaller res for smoothness */
-    height: 720px;
+    height: 480px;
     margin: auto;
     background: #000;
     margin: 0;
@@ -34,8 +34,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1280px;
-    height: 720px;
+    width: 840px;
+    height: 480px;
     transform: scaleX(-1);
     /* mirror for natural webcam feel */
     display: none;
@@ -48,8 +48,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1280px;
-    height: 720px;
+    width: 840px;
+    height: 480px;
     transform: scaleX(-1);
     /* match mirror */
     z-index: 2;
@@ -69,5 +69,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 20px;
 }
