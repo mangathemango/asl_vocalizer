@@ -29,7 +29,6 @@
     margin: 0;
 }
 
-/* Video is hidden but still streaming */
 .input_video {
     position: absolute;
     top: 0;
@@ -37,13 +36,10 @@
     width: 840px;
     height: 480px;
     transform: scaleX(-1);
-    /* mirror for natural webcam feel */
     display: none;
-    /* hide video, only show canvas */
     z-index: 1;
 }
 
-/* Canvas is visible on top */
 .output_canvas {
     position: absolute;
     top: 0;
@@ -51,10 +47,8 @@
     width: 840px;
     height: 480px;
     transform: scaleX(-1);
-    /* match mirror */
     z-index: 2;
     pointer-events: none;
-    /* clicks pass through */
     background: transparent;
 }
 
