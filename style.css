@@ -5,6 +5,7 @@
 }
 
 #container {
+    position: absolute;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -55,4 +56,18 @@
     pointer-events: none;
     /* clicks pass through */
     background: transparent;
+}
+
+#input-container {
+    position: absolute;
+    width: 15%;
+    height: 80%;
+    right: 20px;
+    bottom: 50%;
+    transform: translateY(50%);
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
