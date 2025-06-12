@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">HandSpeak</string>
+    <string name="title_activity_main">HandSpeak</string>
+    <string name="package_name">com.mango.handspeak</string>
+    <string name="custom_url_scheme">com.mango.handspeak</string>
+</resources>

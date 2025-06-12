@@ -1,0 +1,20 @@
+# Node stuff
+node_modules/
+package-lock.json
+
+# Capacitor build output
+android/.gradle/
+android/app/build/
+android/build/
+ios/App/build/
+ios/App/Pods/
+ios/Pods/
+
+# Editor garbage
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Capacitor backups (in case you edited config)
+capacitor.config.*.backup
